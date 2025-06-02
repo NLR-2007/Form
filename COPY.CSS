@@ -1,0 +1,82 @@
+     *{
+        margin:0;
+        padding:0;
+        box-sizing: box-border;
+    }
+    html,body{
+        width:100%;
+        height:100%;
+    
+    }
+    body{
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+       background-position: center;
+    
+    }
+    #companyname{
+        text-align:center;
+        font-size:4vw;
+        
+
+    }
+    h3{
+        text-align: center;
+        font-size: 2vw;
+    }
+    #detials{
+        text-align: center;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-family:arial;
+        font-size:2vw;
+    }
+    input{
+        font-size: 1.5vw;
+        text-align:center;
+    }
+    label{
+        font-size:1.8vw;
+    }
+    #gender{
+        font-size: 2vw;
+        color: blue;
+    }
+    #gende{
+        font-size: 2vw;
+        color:blueviolet
+    }
+    h1{
+        text-align: center;
+        font-size: 3vw;
+        font-family:  sans-serif;
+    }
+    #info{
+        font-family: Verdana;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        width: fit-content;
+        padding: 2vw;
+    }
+    #thanks{
+        justify-content: center;
+        background-color: skyblue;
+        width: fit-content;
+        height: fit-content;
+        padding:2vw;
+    }
+    #button{
+        background-color: black;
+        color: white;
+        width:13vw;
+        height:8vw;
+        padding:2vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:2vw;
+    }
+    #messa{
+        width:29vw;
+        height:12vw
+    }

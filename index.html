@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMS</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- EmailJS Library -->
+</head>
+<body>
+    <link rel="stylesheet" href="COPY.CSS">
+    <h2 id="companyname">REVOLV INTAKE FORMS</h2>
+    <h3>OPERATED BY NLR GROUP OF COMPANY</h3>
+
+    <h2 id="details">Form Details</h2>
+    <center>
+        <form onsubmit="sendEmail(); return false;">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Username" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email" required>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password" required>
+            <br><br>
+            <label for="messa">Message</label>
+            <input type="message-box"  id="messa" placeholder="Message">
+
+            <h4 id="gender">Select Your Gender</h4>
+            <div id="gende">
+                <input name="gender" type="radio" value="Male"> Male
+                <input name="gender" type="radio" value="Female"> Female
+                <input name="gender" type="radio" value="Others"> Others
+                
+            </div>
+            <br><br><br>
+
+            <button id="button" onclick="sendEmail()"  type="submit">SUBMIT</button>
+        </form>
+        <p id="success-message" style="display: none; color: green;">✅ Successfully Submitted!</p>
+    </center>
+
+    <h1>NOTE: AFTER SUBMITTING, YOU WILL RECEIVE A MAIL</h1>
+    <center>
+        <h2 id="info">IF BOARD MEMBERS ARE IMPRESSED, YOU WILL RECEIVE A CONFIRMATION MAIL.</h2>
+        <h4 id="thanks">THANK YOU FOR EXPRESSING CURIOSITY.</h4>
+    </center>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "52VA2SU_zratRTWMa",
+      });
+   })();
+</script>
+   <script type="text/javascript" src="SCRIPT.JS"></script>
+        </body>
+        </html>
